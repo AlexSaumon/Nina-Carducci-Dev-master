@@ -93,6 +93,11 @@ body {
 #gallery {
 	/*	min-height: 100vh; */
 }
+
+.gallery {
+	display: none;
+}
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -147,6 +152,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2rem;
 
 }
 .quote__author {
