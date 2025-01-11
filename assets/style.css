@@ -131,7 +131,7 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
-.mg-prev, .mg-next {
+.mg-prev{
 	width: 30px;
 	height: 30px;
 	border-radius: 00%;
@@ -139,6 +139,34 @@ body {
 	align-items: center;
 	display: flex;
 	font-size: 24px;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: -15px;
+	background: white;
+}
+
+.mg-next {
+	width: 30px;
+	height: 30px;
+	border-radius: 00%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 24px;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	right: -15px;
+	background: white;
+}
+
+.mg-next span {
+	display: none;
+}
+
+.mg-prev span {
+	display: none;
 }
 
 .quote {
