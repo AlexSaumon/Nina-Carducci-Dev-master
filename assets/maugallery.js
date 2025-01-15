@@ -37,7 +37,7 @@
           }
         });
 
-      // fgénérations des filtres
+      // générations des filtres
 
       if (options.showTags) {
         $.fn.mauGallery.methods.showItemTags(
