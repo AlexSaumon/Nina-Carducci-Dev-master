@@ -27,6 +27,79 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci Photographe",
+			"address": {
+			  "@type": "PostalAddress",
+			  "streetAddress": "123 Rue Exemple",
+			  "addressLocality": "Bordeaux",
+			  "addressRegion": "33",
+			  "postalCode": "33200"
+			},
+			"telephone": "05 56 67 78 89",
+			"url": "https://alexsaumon.github.io/Nina-Carducci-Dev-master/",
+			"openingHoursSpecification": [
+			  {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+				  "http://schema.org/Monday",
+				  "http://schema.org/Tuesday",
+				  "http://schema.org/Wednesday",
+				  "http://schema.org/Thursday",
+				  "http://schema.org/Friday"
+				],
+				"opens": "09:00",
+				"closes": "18:00"
+			  },
+			  {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": "http://schema.org/Saturday",
+				"opens": "10:00",
+				"closes": "16:00"
+			  }
+			]
+		  }
+		  
+			"offers": [
+			  {
+				"@type": "Offer",
+				"name": "Shooting photo",
+				"price": "350",
+				"priceCurrency": "EUR",
+				"availability": "https://schema.org/InStock"
+			  },
+			  {
+				"@type": "Offer",
+				"name": "Retouches",
+				"price": "50",
+				"priceCurrency": "EUR",
+				"priceSpecification": {
+				  "@type": "PriceSpecification",
+				  "price": "50",
+				  "priceCurrency": "EUR",
+				  "unitText": "photo"
+				},
+				"availability": "https://schema.org/InStock"
+			  },
+			  {
+				"@type": "Offer",
+				"name": "Album photos",
+				"price": "400",
+				"priceCurrency": "EUR",
+				"priceSpecification": {
+				  "@type": "PriceSpecification",
+				  "price": "400",
+				  "priceCurrency": "EUR",
+				  "unitText": "album"
+				}
+			  }
+			]
+		  }
+		  
+	</script>
 </head>
 <body>
 <div class="top-header">
